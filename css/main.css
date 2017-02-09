@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, p, a, small {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 50%;
 }
 
 #col1-img {
