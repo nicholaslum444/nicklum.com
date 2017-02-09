@@ -1,0 +1,32 @@
+.blog {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;;
+}
+
+.col {
+    padding: 30px;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.section {
+    border-radius: 5%;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.archive-links {
+    margin: 0px;
+    padding: 10px;
+    list-style-type: circle;
+    height: 100%;
+    align-items: center;
+}
+
+.posts {
+    width: 50%;
+}
