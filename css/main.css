@@ -11,7 +11,7 @@ src:url(../fonts/Lato-Bold.woff) format("woff");
 
 @font-face {
 font-family:"lato-light";
-src:url(../fonts/Lato-light.woff) format("woff");
+src:url(../fonts/Lato-Light.woff) format("woff");
 }
 
 *, *:before, *:after {
