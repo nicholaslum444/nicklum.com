@@ -46,7 +46,7 @@
     align-items: baseline;
 }
 
-.post-title h2 {
+.post-title h1 {
     padding-bottom: 10px;
     font-family:"lato-light","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
