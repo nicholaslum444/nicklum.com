@@ -17,6 +17,11 @@
     font-family:"lato-light","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.about .section h1 {
+    padding-bottom: 10px;
+    font-family:"lato-bold","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .about .section p {
     padding-bottom: 15px;
 }

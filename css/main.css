@@ -28,7 +28,7 @@ body {
     background-color: #eee;
 }
 
-h1,h2,h3,h4,h5,p,a {
+h1, h2, h3, h4, h5, p, a, small {
     padding:0;
     margin:0;
     font-family:"lato-regular","Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -132,6 +132,7 @@ h1,h2,h3,h4,h5,p,a {
     align-items: center;
     justify-content: space-around;
     background-color: #e0e0e0;
+    padding: 20px;
 }
 
 .shortcuts .col {
@@ -149,7 +150,7 @@ h1,h2,h3,h4,h5,p,a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 20px;
+    margin-bottom: 20px;
     border-radius: 3px;
 }
 
@@ -234,6 +235,14 @@ footer {
     
     .jumbo-overlay h3 {
         font-size: 15px;
+    }
+    
+    .shortcuts {
+        padding: 10px;
+    }
+    
+    .shortcuts .col {
+        margin: 15px 0px;
     }
     
     .col-img {
