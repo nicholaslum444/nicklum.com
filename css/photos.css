@@ -1,0 +1,53 @@
+.photos {
+    background-color: #e0e0e0;
+}
+
+.photos .grid {
+    padding: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.photo {
+    display: inline-flex;
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+.photo img {
+    width: 25%;
+}
+
+#img1 {
+    background-image: url("../photos/img1.jpg");
+}
+
+#img2 {
+    background-image: url("../photos/img2.jpg");
+}
+
+#img3 {
+    background-image: url("../photos/img3.jpg");
+}
+
+#img4 {
+    background-image: url("../photos/img4.jpg");
+}
+
+#img5 {
+    background-image: url("../photos/img5.jpg");
+}
+
+#img6 {
+    background-image: url("../photos/img6.jpg");
+}
+
+#img7 {
+    background-image: url("../photos/img7.jpg");
+}
