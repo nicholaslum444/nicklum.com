@@ -29,8 +29,12 @@
     margin: 20px;
 }
 
-.photo img {
-    width: 25%;
+@media screen and (max-width: 600px) {
+    .photo {
+        margin: 10px;
+        height: 200px;
+        width: 200px
+    }
 }
 
 #img1 {

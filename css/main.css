@@ -59,10 +59,6 @@ h1,h2,h3,h4,h5,p,a {
     text-shadow: 1px 1px #c5c5c5;
 }
 
-.logo h1 {
-    font-size: 20px;
-}
-
 .nav-links {
     display: inline-flex;
     margin: 0px 20px;
@@ -78,7 +74,6 @@ h1,h2,h3,h4,h5,p,a {
 }
 
 .nav-links li a {
-    /*background-color: orange;*/
     height: 100%;
     text-align: center;
     text-decoration: none;
@@ -165,4 +160,24 @@ footer {
     color: black;
     margin: 0px 30px;
     font-family:"lato-light","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+    .nav-links {    
+        margin: 0px 10px;
+    }
+    .nav-links li a {
+        padding: 0px 5px;
+        font-size: 10px;
+    }
+    .jumbo-overlay h1 {
+        font-size: 30px;
+    }
+    .jumbo-overlay h3 {
+        font-size: 15px;
+    }
 }
