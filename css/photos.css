@@ -3,12 +3,16 @@
 }
 
 .photos .preamble {
-    /*border-radius: 15px;*/
-    /*background-color: #e5e5e5;*/
+    padding: 0px 20px;
     padding-top: 30px;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     text-align: center;
+}
+
+.photos .preamble p {
+    padding-bottom: 15px;
 }
 
 .photos .grid {
@@ -27,14 +31,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .photo {
-        margin: 10px;
-        height: 200px;
-        width: 200px
-    }
 }
 
 #img1 {
@@ -71,4 +67,12 @@
 
 #img9 {
     background-image: url("../photos/img9.jpg");
+}
+
+@media screen and (max-width: 600px) {
+    .photo {
+        margin: 10px;
+        height: 200px;
+        width: 200px
+    }
 }
