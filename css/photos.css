@@ -3,7 +3,7 @@
 }
 
 .photos .grid {
-    padding: 30px;
+    padding: 30px 10%;
     display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
@@ -50,4 +50,12 @@
 
 #img7 {
     background-image: url("../photos/img7.jpg");
+}
+
+#img8 {
+    background-image: url("../photos/img8.jpg");
+}
+
+#img9 {
+    background-image: url("../photos/img9.jpg");
 }
