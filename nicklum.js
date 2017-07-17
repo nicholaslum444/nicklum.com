@@ -15,11 +15,11 @@ app.get('/', function(req, res) {
 });
 
 app.get('/gallery', function(req, res) {
-  res.render('gallery/layout', {title: 'Gallery'});
+  res.render('gallery/index', {title: 'Gallery'});
 });
 
 app.get('/about', function(req, res) {
-  res.render('about/layout', {title: 'About'});
+  res.render('about/index', {title: 'About'});
 });
 
 //--- LISTEN -------------------------------------------------------------------
